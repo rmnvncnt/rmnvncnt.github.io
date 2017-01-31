@@ -1,3 +1,24 @@
-name: Romain Vincent
-markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+# Site Settings
+title:               Romain Vincent
+tagline:             a minimalist Jekyll theme
+description:
+baseurl:            #"/Lagrange"
+url:                #"https://lenpaul.github.io"
+github:
+  url:               "https://lenpaul.github.io/Lagrange"
+author:
+  name:              "Romain Vincent"
+  email:             "romv740@gmail.com"
+  twitter:           ""
+  instagram:         ""
+  github:            "rmnvncnt"
+  facebook:          ""
+  linkedin:          "romain20100"
+paginate:            5
+
+
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           none
+gems:                [jekyll-paginate]
