@@ -1,11 +1,11 @@
 # Site Settings
 title:               Romain Vincent
-tagline:             a minimalist Jekyll theme
+tagline:             
 description:
 baseurl:            #"/Lagrange"
 url:                #"https://lenpaul.github.io"
 github:
-  url:               "https://lenpaul.github.io/Lagrange"
+  url:               "http://rmnvncnt.github.io/"
 author:
   name:              "Romain Vincent"
   email:             "romv740@gmail.com"
