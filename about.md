@@ -1,5 +1,5 @@
 ---
 layout: page
-title: About
+title: About me
 ---
-Lagrange is a minimalist Jekyll. It is intended to have a clean, content focused interface for blog writing.
+I received a PhD in Cognitive Neuroscience from Paris Descartes University in 2016 and I'm currently travelling the world. Currently, I'm based in Daejeon, South Korea. As a scientist, I'm mainly interested in the way our brain predicts the positive and negative consequences of our actions and how these predictions affect our behaviour. As a civilian, my interests range from data analytics to philosophy, with frequent incursions into Python programming, critical thinking and video games.

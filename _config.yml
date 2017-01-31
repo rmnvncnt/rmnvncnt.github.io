@@ -5,7 +5,7 @@ description:
 baseurl:            #"/Lagrange"
 url:                #"https://lenpaul.github.io"
 github:
-  url:               "http://rmnvncnt.github.io/"
+  url:               "http://rmnvncnt.github.io"
 author:
   name:              "Romain Vincent"
   email:             "romv740@gmail.com"
