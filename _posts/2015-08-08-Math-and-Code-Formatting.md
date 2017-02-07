@@ -2,6 +2,7 @@
 layout: post
 title: "Lorem ipsum dolor sit amet"
 categories: journal
+comments: true
 tags: [documentation,sample]
 image:
   feature: sewing.jpg
