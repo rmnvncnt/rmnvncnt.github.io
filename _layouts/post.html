@@ -25,4 +25,11 @@ layout: default
   by {{ site.author.name }}
 </span>
 {% include social-sharing.html %}
+
+{% if page.comments %}
+  <div id="disqus_thread">
+    {% include disqus.html %}
+  </div>
+{% endif %}
+
 {% include related-posts.html %}
