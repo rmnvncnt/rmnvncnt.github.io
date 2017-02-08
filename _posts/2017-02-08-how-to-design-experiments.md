@@ -59,6 +59,7 @@ Make sure to explain your task as clearly as possible, in a systematic manner. I
 
 Try to make your explanations as concise as possible, using visuals rather than text. Pictures facilitate the comprehension of the task and are easier to discriminate in a dark environment.
 I also strongly advise you to run a dummy block of trial with the participant. This is a good way to correct potential errors before the actual experiment begins.
+
 #### Provide feedback
 
 A lot of the task I ran were extremely boring. People had to press random keys, and were asked to pay close attention to the stimulus elicited by the key press. Nothing interesting happened, it was just colored squares or neutral tones. In order to keep participants engaged into this task, I added a point system on top of it. For each successful trial, they would get one point and see how much they got during breaks. The points did not represent anything, but nevertheless people were interested in how good they did and how they could get better from block to block. You can also take advantage of [loss aversion](http://www3.uah.es/econ/MicroDoct/Tversky_Kahneman_1991_Loss%20aversion.pdf) to implement a system where participants can only lose points in case of mistake. 
