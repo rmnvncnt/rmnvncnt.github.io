@@ -5,8 +5,8 @@ categories: posts
 comments: true
 tags: [methodology]
 image:
-  feature: tools.jpg
-  teaser: tools-teaser.jpg
+  feature: cards.jpg
+  teaser: cards-teaser.jpg
   credit:
   creditlink:
 ---
