@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to design experiments for people"
-categories: journal
+categories: posts
 comments: true
 tags: [methodology]
 image:
