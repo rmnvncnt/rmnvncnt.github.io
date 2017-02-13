@@ -166,6 +166,14 @@ blockquote p {
   font-size:0.8rem;
 }
 
+.license {
+  display: block;
+  margin-bottom: 1rem;
+  color: #9a9a9a;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size:0.8rem;
+}
+
 .related {
   padding-bottom: 2rem;
 }
