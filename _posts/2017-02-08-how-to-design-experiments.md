@@ -1,83 +1,30 @@
 ---
 layout: post
-title: "How to design experiments for people"
+title: "Aberkane le Survivant"
 categories: posts
 comments: true
-tags: [methodology]
+tags: [bias]
 image:
-  feature: cards.jpg
-  teaser: cards-teaser.jpg
+  feature: ken.png
+  teaser: ken-teaser.png
   credit:
   creditlink:
 ---
 
-Over the course of my PhD, I came to the realization that running scientific experiments with human beings was awfully difficult. Biologists never have to deal with rats starting to play on their phone during a test, physicists seldom cancel a collider session because the protons showed up drunk and no one has ever seen an engineer blaming a failed launch test on the reagents falling asleep. However, this is the kind of stuff experimental psychologists and neuroscientists face on a daily basis. 
+Dans une de ses récentes [interventions](http://positivr.fr/idriss-aberkane-echec-diplome/), Idriss Aberkane diagnostiquait chez les Français une aversion congénitale pour l’échec qui serait responsable, selon lui, d’un ralentissement conséquent de l’innovation. Nous serions ainsi conditionnés depuis notre plus tendre enfance à redouter l’échec au point de ne plus oser, une fois adultes, prendre les risques nécessaires à la réussite entreprenariale. Les Américains, nous dit-il, seraient par essence beaucoup plus tolérants à l’erreur, ce qui expliquerait pourquoi des perdants magnifiques comme Bill Gates, Elon Musk ou Steve Jobs seraient devenus les empereurs du numérique qu’ils sont aujourd’hui. Certes ces derniers ont tous connu des coups durs à un moment donné de leur carrière, mais puisqu’aux Etats-Unis, se planter c’est bien vu, cet échec a par la suite constitué le petit coup de pouce qu’il leur fallait pour réussir. En France, l’échec est un anathème, alors que dans la Valley – attention, punchline – « l’échec est un diplôme ! »
 
-It is true that people can be unpredictable and temperamental, but this doesn’t make them an impossible research subject. This is actually what makes cognitive science so interesting : how do you extract facts from the seemingly chaotic human nature? The answer is : with a tightly controlled experimental setup. But designing such a research tool can be cumbersome. You want to control every parameters, but you have to keep in mind that actual human beings will have to run the experiment in the end.
+Moi aussi j’aime bien me faire mousser et lâcher des noms, alors laissez-moi à mon tour vous raconter une petite histoire. En 1943, l’état-major américain engagea un certain [Abraham Wald](https://fr.wikipedia.org/wiki/Abraham_Wald), scientifique hongrois réfugié aux Etats-Unis, pour tenter d’améliorer le taux de survie des pilotes alliés en opération. Sa mission consistait notamment à établir une méthode statistique permettant d’optimiser le blindage des bombardiers, dont certains modèles se révélaient être de véritables cercueils volants. Puisque le blindage c’est lourd, il n’était pas question d’en ajouter partout sans réduire dramatiquement les performances des appareils. Son objectif était donc de déterminer l’endroit exact où le blindage était  vraiment utile. Pour solutionner ce problème, Wald demanda à l’état-major de lui fournir un maximum de données sur les impacts de balles dénombrés sur les appareils à leur retour de mission. Il récolta ainsi des centaines de schémas comme celui-ci où sont cumulés les impacts reportés par une escadrille après un raid :
 
-Many times I came up with ideas that went to trash because I forgot about that. Either the task was too complicated, or too long, or too boring. I also lost considerable amount of time recruiting participants who did not show up on time, or simply disappeared in the nature. At first, I blamed it on bad luck or human nature, but after a while I figured out that some of these issues could be solved with a few design tweaks and a good amount of social engineering.
+![](https://en.wikipedia.org/wiki/Survivorship_bias#/media/File:Survivorship-bias.png)
 
-Usually these tricks are only discussed at the department’s coffee machine. It’s almost never part of the scientific discussion and it rarely makes it to the method section of research papers (because it's mundane, I guess). But if you are starting your researcher training and if you are pretty much on your own, I think you might learn something here. 
+On peut voir assez facilement que tous les trous sont concentrés dans certaines régions et pas d’autres, donc le réflexe initial de l’état-major fût de renforcer les zones en question. Mais Wald suggéra de faire exactement le contraire et d’ajouter du blindage dans les zones qui ne montraient  aucun impact. Pourquoi ? Parce que les données fournies par l’état-major provenaient uniquement des avions qui étaient revenus, et pas des avions qui avaient été abattus, alors même que ce sont ces derniers qui fournissent la clé du problème. D’après Wald, ce qui fait la différence entre un avion abattu et un avion revenu de mission, c’est justement l’endroit où ils ont été touchés. Et en partant de la distribution des impacts sur les appareils épargnés, on peut inférer la distribution des impacts sur les carlingues des disparus et se servir du résultat pour [répartir le blindage au mieux](https://people.ucsc.edu/~msmangel/Wald.pdf). CQFD.
 
-#### Disclaimer
+Outre la performance mathématique (qui sera saluée après guerre par les statisticiens), Wald venait de mettre le doigt sur un biais cognitif désormais bien connu : le biais du survivant. Ce biais consiste a sélectionner uniquement les données visibles pour prendre une décision sans considérer les données absentes ou détruites durant le processus de sélection. On retrouve cette erreur de raisonnement un peu partout : par exemple, lorsqu’un fond d’investissement publie un bilan de performance où n’apparaissent pas les entreprises disparues (parce que rachetées) durant la [période considérée](https://doi.org/10.1093/rfs/9.4.1097).
 
-* My advices are meant to improve data collection. It will not make any difference in the results of your experiment if you hypothesis are wrong in the first place. 
+De manière plus pernicieuse, ce biais est aussi instrumentalisé par d’habiles communicants à des fins purement promotionnelles. Il n’est pas très difficile de trouver [quelqu’un](http://successfuldropout.com/) pour vous suggérer de [laisser tomber l’université](http://www.businessinsider.com/16-insanely-successful-college-dropouts-2015-6/#tblue-airways-founder-david-neeleman-dropped-out-of-the-university-of-utah-a-year-before-graduation-15) pour vous consacrer à votre start-up parce qu’ils sont [nombreux](http://www.businessinsider.com/wildly-successful-people-who-dropped-out-of-high-school-2015-9/#joe-lewis-dropped-out-at-15-4) ceux qui ont réussi quand-même . 
 
-* These tips do not apply to all kind of experiments. If it induces or not a confound into your design is entirely up to you.
+Pourtant les [chiffres](https://www.insee.fr/fr/statistiques/2429772) ne mentent pas : n’importe quel diplôme universitaire vous protègera mieux du chômage que [pas de diplôme du tout](https://www.theatlantic.com/business/archive/2013/03/the-myth-of-the-successful-college-dropout-why-it-could-make-millions-of-young-americans-poorer/273628/). Comme les officiers de la Navy qui ignoraient les avions abattus parce qu’ils ne généraient pas de données, les gourous du développement personnel 2.0 construisent leur narration autour d’une poignée de survivants, sans considérer la majorité silencieuse de ceux qui se sont plantés et qui sont passés à autre chose. Vous ne lirez jamais d’articles titrant : « Ces 15 inconnus qui ont tout plaqué pour vivre leur rêve et lancer leur boîte, mais qui se sont largement ramassés et qui sont retourné vivre chez leur maman. » Pourtant, ce genre de papier serait probablement plus réaliste que les trous-à-clics qui pullulent sur les réseaux sociaux.
 
-* These tips are not an excuse not to respect the [Helsinki Declaration](http://www.who.int/bulletin/archives/79(4)373.pdf). It’s not 1955 anymore, and you cannot do whatever you want with your participants. Let me remind you for instance that your participant can leave the experiment at any moment and that he should give an informed consent *before* running the experiment. You knew about that, right?
+Alors quand Aberkane vous vante les mérites de l’échec, demandez-vous d’abord si le portrait qu’il dresse du monde de l’entrepreunariat tient vraiment la route. Demandez-vous si Bill Gates, Elon Musk et Steve Jobs sont des exemples représentatifs de l’ensemble des gens qui se sont lancés dans la création d’entreprise, puis réévaluez son message (d’ailleurs, je vous invite à revoir sa vidéo en gardant mon histoire de biais à l’esprit). De la même manière, demandez-vous si Idriss Aberkane  est en position de vous prodiguer des conseils pertinents sur la valeur de l’échec compte tenu de son propre parcours (aux dernières nouvelles, il avait [trois doctorats](http://menace-theoriste.fr/idriss-aberkane-fact-checking/), ou peut-être quatre, je ne sais plus). Quoi qu’il en soit, méfiez-vous des [gourous](http://menace-theoriste.fr/triomphe-du-storytelling/) et du [prêt-à-penser](https://medium.com/@tibo/idriss-aberkane-ou-le-danger-de-la-poudre-aux-yeux-b4f8b94ce202). 
 
-Now we can talk.
-
-#### Pilot the damn thing properly
-
-Before even thinking about running a full fledged experiment, run a pilot experiment. The goal of a good pilot is to break the experiment as many times as possible. Don’t slam the computer screen already, that’s not what I meant! The point of the pilot is to help you anticipate all the behaviors that might lead your computer program (or any other device used during the experiment) to freeze and crash. 
-
-Contrarily to pure code debugging, this implies that you consider *human debugging* as well, that is all the potential human errors occurring during your experiment. Press all the keys at once, spin the mouse, try to unplug the screen HDMI cable with your feet, etc. If you can break it, you have to make it stronger. Remember that everyone is not necessarily familiar with a lab setting, and a lot of problems can occurs because scientists tend to forget about that. If you find a bug, fix it.
-
-Once you got that straight, run the entire thing for yourself. This is a pain in the ass, I know. Your eyes are already bleeding and you have other important things to do, but do it anyway. Pay loads of attention to you data output : if you cannot read it, you’ve done all of this for nothing. 
-
-Then, finally, test your fellow colleagues. It is really important to get a feedback from experienced people, even if you thought about everything (you didn’t). If the seat is broken, if the screen is blinking, if your program skips a few frames here and there, they will tell you. As long as you help other people piloting their own experiments, there is no shame in asking feedback at that point. Researchers know that.
-
-Once you got that straight, you are ready to go.
-
-#### Double screening
-
-If you want to make sure that everything is going to run smoothly on the day of the experiment, you should already consider the recruitment process as part of the test. And reflecting on your recruitment routines is also part of good design practices. If you are lucky enough to work with an assistant (or if you have an army of undergrads at your orders because you work in Germany or something), you might not know about the joy of scheduling an appointment with people you don’t know. But if you do, you may have noticed that a lot happens at that stage.
-
-The first thing you want to do is to screen your participants. You have to make sure that you will not include in your sample people with conditions or traits that might interfere with your procedure. That’s why you include a statement about the conditions for participating in your experiments within your recruitment email, then you make an appointment with those who answer. I’m sure you know about all of this already, I should not even mention it.
-
-But this is where *double screening* trick comes into play. Rather than making an appointment right away ask for more informations in a second email. Eventually, send a form to fill with additional details. Then only makes an appointment upon completion of the form, even if the informations you asked were absolutely pointless for the task. 
-
-I noticed that many potential applicants drop out at this stage and never answer the second email. Probably because they are busy or too lazy to provide further details, I don’t know. But this is a good thing, because that means they would have been likely to cause more problems later in the process. On top of luring potential lazy participants, this trick allows you to keep informations about the participants that might be useful later (age, gender, etc.) in case you forget to ask them on the day of the experiment. 
-
-But remember that you are not allowed to store personal details about people for an extended period of time (even if they agreed on giving you that information). Always use a secure email account when communicating with your participants and delete everything once the experiment is done.
-
-#### Be precise
-
-Make sure to explain your task as clearly as possible, in a systematic manner. I suggest you to use a cheat sheet that you’ll leave by the participant for the experiment. The sheet will help you make sure that you don’t skip any details and that you provide each participant with the same information. If the participant has a doubt during the experiment, he can still refer to the sheet if you’re not around to answer the question. 
-
-Try to make your explanations as concise as possible, using visuals rather than text. Pictures facilitate the comprehension of the task and are easier to discriminate in a dark environment.
-I also strongly advise you to run a dummy block of trial with the participant. This is a good way to correct potential errors before the actual experiment begins.
-
-#### Provide feedback
-
-A lot of the task I ran were extremely boring. People had to press random keys, and were asked to pay close attention to the stimulus elicited by the key press. Nothing interesting happened, it was just colored squares or neutral tones. In order to keep participants engaged into this task, I added a point system on top of it. For each successful trial, they would get one point and see how much they got during breaks. The points did not represent anything, but nevertheless people were interested in how good they did and how they could get better from block to block. You can also take advantage of [loss aversion](http://www3.uah.es/econ/MicroDoct/Tversky_Kahneman_1991_Loss%20aversion.pdf) to implement a system where participants can only lose points in case of mistake. 
-
-But the goal of this design trick is not to merely “gamify” your experiment. Including a point system is part of the broader process of providing constant feedback to your participants. Because people always seek information in order to adjust their behavior, they need to know how well they perform to keep interested in the task. If you leave them without a clue, they will quickly start thinking that the experiment is pointless. 
-
-Additionally, counting participant’s mistakes over the course of the experiment is a good way to identify your participant’s learning curve. You can use that information to spot moments in the task where participants did very poorly, and start trying to find out why.
-
-#### Be there
-
-Never leave a participant alone for the whole experiment! First because you have to make sure that your participant is all right – that goes without saying – but you also want to check on him for potential questions or misunderstandings. Don’t expect your participant to fetch you in your office if he has a question after the first block, most of the time he will run the entire experiment without understanding the task fully and your data will be garbage.
-
-Showing that you are paying attention is also a good way to catch participants sleeping or playing on their phone. Think about that too.
-
-#### Wrapping it up
-
-Running experiment with people is a complicated matter. It requires you to make compromises between the purity of your expectations and the reality of human nature. This is an humbling process where science meets craftsmanship. And like any other craft, it demands patience and skill.
-
-Here I tried to communicate a few things I learned along the way. The common idea behind these tips is the necessity of putting human nature at the center of your design practices. It is tempting to dismiss it as trivial, but I think it would be a mistake. Denying the obvious in these circumstances is an excellent way to collect bad data. 
-
-Finally, I think that these tips, and good practices in general, are always worth sharing regardless of your research or work field. If you have similar experience or useful tricks, feel free to share it in the comment section! 
+Si vous voulez en savoir plus sur le biais du survivant, c’est [ici](https://youarenotsosmart.com/2013/05/23/survivorship-bias/). 
